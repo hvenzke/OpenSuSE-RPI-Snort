@@ -17,13 +17,22 @@ Our build based mostly on http://download.opensuse.org/repositories/server:/moni
 
 BUG reports please via mail to support@remsnet.de or raise an Issuie.
 
-Changelog - 23.03.2014 - Horst dot venzke at remsnet dot de
+Changelog - 25.03.2014 - Horst dot venzke at remsnet dot de
 
     daq 2.02 spec : completed
-    iptables 1.4.21 : completed
     snort 2.9.0.5.specc : completed
  
 
 depend software builds extras on RPI ARM oss 13.1
+ iptables 1.4.21 : completed
+ adodb5-518a     : completed
+ base-1.4.5      : completed
+ oinkmaster-2.0  : completed
 
-   iptables 1.4.21 : completed
+Extra system software required by BASE pkg:
+
+ PEAR-Image_Canvas-0.3.5 : completed
+ PEAR-Image_Color2-0.1.5 : completed
+ PEAR-Image_Graph-0.8.0  : completed
+ 
+ 
