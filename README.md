@@ -24,15 +24,15 @@ Changelog - 25.03.2014 - Horst dot venzke at remsnet dot de
  
 
 depend software builds extras on RPI ARM oss 13.1
- iptables 1.4.21 : completed
- adodb5-518a     : completed
- base-1.4.5      : completed
- oinkmaster-2.0  : completed
+    iptables 1.4.21 : completed
+    adodb5-518a     : completed
+    base-1.4.5      : completed
+    oinkmaster-2.0  : completed
 
 Extra system software required by BASE pkg:
 
- PEAR-Image_Canvas-0.3.5 : completed
- PEAR-Image_Color2-0.1.5 : completed
- PEAR-Image_Graph-0.8.0  : completed
+    PEAR-Image_Canvas-0.3.5 : completed
+    PEAR-Image_Color2-0.1.5 : completed
+    PEAR-Image_Graph-0.8.0  : completed
  
  
