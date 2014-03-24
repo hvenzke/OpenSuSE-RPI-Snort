@@ -56,7 +56,7 @@ Extra system software required by BASE pkg:
 BUILD Change details: 
 
  - added rsyncd ,rsync cron  script pkg to oinkmaster  for local network based rules serever
-   ( we know , snort can do this in server mode - but at DMZ thats impossible )
+   ... we know , snort can do this in server mode - but at DMZ thats often impossible ...
 
 -  added doc , cron , sql package to barnyard2 , 
    fitted barnyard2 ´s config with BASE
