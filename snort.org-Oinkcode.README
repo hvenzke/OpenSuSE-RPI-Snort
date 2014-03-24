@@ -1,0 +1,60 @@
+
+    You need to download the latest Registered User Snort rules snapshot yourself !!
+
+    The rules are downloaded from the http://www.snort.org website, 
+    but you must have an account and a special code called an Oinkcode before you can download any rule snapshots.
+    Signing up for an account is free.
+    Once on the snort.org website, 
+    click on Sign In-->Account Management-->Sign Up for an Account.
+    Go ahead and create a new account. A newly created account requires activation, 
+    so ensure you click on the link that arrives in the activation email before attempting to login to the snort.org website.
+    Once you account is activated, login to your account and once logged in, click on My Account-->Subscriptions and Oinkcodes-->Generate Oinkcode. This will generate your very own Oinkcode. Please make a note of it and then click on Get Rules-->Registered user Release-->Snort v2.9-->snortrules-snapshot-xxxx.tar.gz. As of the writing of this guide, the latest Registered User Snort rules snapshot was snortrules-snapshot-2923.tar.gz.
+    Select and copy the filename of the latest rules snapshot filename and then use the http://www.snort.org/dl/snort-current/ url and then paste the name of the filename you just copied at the end of the url just like it appears below. As always, it is easiest to download from the command line of your machine using wget. Remember, your download filename will differ depending on which is the latest version of the snapshot you are downloading. Adjust the command below accordingly:
+
+
+
+Downloading with your Oinkcode
+
+    Important Note: 
+    In June 2010 snort.org  stopped offering rules in the "snortrules-snapshot-CURRENT" format. Instead, rules are released for specific versions of Snort. You will be responsible for downloading the correct rules release for your version of Snort. The new versioning mechanism will require a four digit version in the file name.
+
+Subscriber Release
+
+            http://www.snort.org/sub-rules/<filename>/<oinkcode here>
+          
+
+            e.g. http://www.snort.org/sub-rules/snortrules-snapshot-2931.tar.gz/<oinkcode>
+          
+
+Registered User Release
+
+            http://www.snort.org/reg-rules/<filename>/<oinkcode here>
+          
+
+            e.g. http://www.snort.org/reg-rules/snortrules-snapshot-2931.tar.gz/3<oinkcode>
+          
+
+Configuring Oinkmaster
+
+In order to use Oinkmaster to update Snort with VRT rules you must edit oinkmaster.conf
+
+In the oinkmaster.conf modify "url" to:
+
+        url = http://www.snort.org/pub-bin/oinkmaster.cgi/<oinkcode here>/<filename>  
+      
+
+        e.g. url = http://www.snort.org/pub-bin/oinkmaster.cgi/<oinkcode>/snortrules-snapshot-2931.tar.gz
+      
+
+PulledPork
+
+In order to get the rules (PulledPork auto determines your version of snort)
+
+            rule_url=https://www.snort.org/reg-rules/|snortrules-snapshot.tar.gz|<oinkcode>
+          
+
+and to also get the docs if you want them (yes, two rule_url entries)
+
+            rule_url=https://www.snort.org/reg-rules/|opensource.gz|<oinkcode>
+          
+
