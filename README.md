@@ -2,7 +2,7 @@ OpenSuSE-RPI-Snort
 ==================
 
         OpenSuSE-RPI-Snort- Build Project for Snort 2.9.x with :
-        SAM 0.8.x  
+        suse-sam 0.8.x  
         daq 2.x 
         iptables 1.4.x  
         barnyard2 2.x  
