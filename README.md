@@ -1,10 +1,13 @@
 OpenSuSE-RPI-Snort
 ==================
 
-OpenSuSE-RPI-Snort
-
-
-Build Project for Snort > 2.9.0 with SAM , daq 2.x, iptables > 1.4.21 
+OpenSuSE-RPI-Snort- Build Project for Snort 2.9.x with :
+        SAM 0.8.x  
+        daq 2.x 
+        iptables 1.4.x  
+        barnyard2 2.x  
+        BASE 1.4.x 
+        oinkmaster 2.x
 
 Our Build are done on Rasberry PI opensuse .
 
@@ -37,6 +40,7 @@ depend software builds extras on RPI ARM oss 13.1
     adodb5-518a     : completed
     base-1.4.5      : completed
     oinkmaster-2.0  : completed
+    suse-sam        : completed
 
 
 Extra system software required by BASE pkg:
