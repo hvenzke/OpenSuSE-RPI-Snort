@@ -6,9 +6,21 @@
     Once on the snort.org website, 
     click on Sign In-->Account Management-->Sign Up for an Account.
     Go ahead and create a new account. A newly created account requires activation, 
-    so ensure you click on the link that arrives in the activation email before attempting to login to the snort.org website.
-    Once you account is activated, login to your account and once logged in, click on My Account-->Subscriptions and Oinkcodes-->Generate Oinkcode. This will generate your very own Oinkcode. Please make a note of it and then click on Get Rules-->Registered user Release-->Snort v2.9-->snortrules-snapshot-xxxx.tar.gz. As of the writing of this guide, the latest Registered User Snort rules snapshot was snortrules-snapshot-2923.tar.gz.
-    Select and copy the filename of the latest rules snapshot filename and then use the http://www.snort.org/dl/snort-current/ url and then paste the name of the filename you just copied at the end of the url just like it appears below. As always, it is easiest to download from the command line of your machine using wget. Remember, your download filename will differ depending on which is the latest version of the snapshot you are downloading. Adjust the command below accordingly:
+    so ensure you click on the link that arrives in the activation email before attempting 
+    to login to the snort.org website.
+    Once you account is activated, login to your account and once logged in, 
+    click on My Account-->Subscriptions and Oinkcodes-->Generate Oinkcode. 
+    This will generate your very own Oinkcode. 
+    Please make a note of it and then click on 
+    "Get Rules"-->Registered user Release-->Snort v2.9 -->snortrules-snapshot-xxxx.tar.gz. 
+    As of the writing of this guide( March 2014) , the latest Registered User Snort rules 
+    snapshot was snortrules-snapshot-2923.tar.gz.
+    Select and copy the filename of the latest rules snapshot filename 
+    and then use the http://www.snort.org/dl/snort-current/ url and then paste the name of the 
+    filename you just copied at the end of the url just like it appears below. 
+    As always, it is easiest to download from the command line of your machine using wget. 
+    Remember, your download filename will differ depending on which is the latest version 
+    of the snapshot you are downloading. Adjust the command below accordingly:
 
 
 
