@@ -1,4 +1,3 @@
-
     You need to download the latest Registered User Snort rules snapshot yourself !!
 
     The rules are downloaded from the http://www.snort.org website, 
@@ -16,7 +15,10 @@
 Downloading with your Oinkcode
 
     Important Note: 
-    In June 2010 snort.org  stopped offering rules in the "snortrules-snapshot-CURRENT" format. Instead, rules are released for specific versions of Snort. You will be responsible for downloading the correct rules release for your version of Snort. The new versioning mechanism will require a four digit version in the file name.
+    In June 2010 snort.org  stopped offering rules in the "snortrules-snapshot-CURRENT" format. 
+    Instead, rules are released for specific versions of Snort. 
+    ou will be responsible for downloading the correct rules release for your version of Snort. 
+    The new versioning mechanism will require a four digit version in the file name.
 
 Subscriber Release
 
