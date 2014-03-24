@@ -39,9 +39,10 @@ depend software builds extras on RPI ARM oss 13.1
 
     iptables 1.4.21 : completed
     adodb5-518a     : completed
-    base-1.4.5      : completed
+    base-1.4.5      : updated  
     oinkmaster-2.0  : completed
     suse-sam        : completed
+
 
 
 Extra system software required by BASE pkg:
