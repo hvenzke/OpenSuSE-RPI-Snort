@@ -52,3 +52,18 @@ Extra system software required by BASE pkg:
     PEAR-Image_Graph-0.8.0  : completed
  
  
+ ----------------------------------------------------------------------------------------
+BUILD Change details: 
+
+ - added rsyncd ,rsync cron  script pkg to oinkmaster  for local network based rules serever
+   ( we know , snort can do this in server mode - but at DMZ thats impossible )
+
+-  added doc , cron , sql package to barnyard2 , 
+   fitted barnyard2 ´s config with BASE
+
+-  fitted BASE with barnyard2 setup
+
+
+
+ 
+ 
