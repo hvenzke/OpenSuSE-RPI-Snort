@@ -1,7 +1,7 @@
 OpenSuSE-RPI-Snort
 ==================
 
-OpenSuSE-RPI-Snort- Build Project for Snort 2.9.x with :
+        OpenSuSE-RPI-Snort- Build Project for Snort 2.9.x with :
         SAM 0.8.x  
         daq 2.x 
         iptables 1.4.x  
@@ -32,7 +32,7 @@ Changelog - 25.03.2014 - Horst dot venzke at remsnet dot de
 
     daq 2.02 spec : completed
     snort 2.9.0.5.specc : completed
-    barnyard2-1.13      : completed
+    barnyard2-2.13git    : updated
 
 depend software builds extras on RPI ARM oss 13.1
 
